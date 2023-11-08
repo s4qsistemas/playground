@@ -1,0 +1,73 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.dropdown-menu > li > a:hover {
+  background-color: orange;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.carousel-caption {
+  color: orange !important;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel-caption p, h4 {
+  text-shadow: 3px 5px 5px black;
+  font-size:2rem;
+}
+
+.carousel-indicators button {
+  background-color:orange !important;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fa0' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fa0' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+.principal {
+  margin-top: 50px;
+}
+
+.card-header-first {
+  margin-top: -48px;
+  height: 128px;
+  background: linear-gradient(-90deg, orange, #BF019F);
+  box-shadow:1px 5px 15px #a2a2a2;
+}
+
+.card-header-second {
+  margin-top: -48px;
+  height: 128px;
+  background: linear-gradient(-90deg, yellowgreen, yellow);
+  box-shadow:1px 5px 15px #a2a2a2;
+}
+
+.card-header-third {
+  margin-top: -48px;
+  height: 128px;
+  background: linear-gradient(-90deg, blue, green);
+  box-shadow:1px 5px 15px #a2a2a2;
+}
+
+.jumbo {
+  background-image: url(/img/Plastic-Outdoor-Playground.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about p {
+  margin: 0;
+  text-indent: 2rem;
+  text-align: justify;
+}
